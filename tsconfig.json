@@ -1,0 +1,24 @@
+{
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "compilerOptions": {
+      "strict": true,
+      "rootDir": "src",
+      "outDir": "bin",
+      "types": ["node", "jest"],
+      "target": "es6",
+      "resolveJsonModule": true,
+      "isolatedModules": false,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "noUnusedLocals": true,
+      "declaration": true
+    },
+    "include": [
+      "src",
+    ],
+    "exclude": ["rename.ts"]
+  }
