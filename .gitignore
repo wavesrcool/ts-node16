@@ -1,25 +1,15 @@
 # dependencies
 node_modules/
-
-# javascript
-bin/
-
-# env
+# js
+dist/
+# apple
+.DS_Store
+# other
 *.env
-
-# keys
 *.pem
-
-# vscode
-.vscode
-
-# eslint
 .eslintcache
-
-# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.vscode
 
-# apple
-.DS_Store

@@ -3,7 +3,7 @@
     "compilerOptions": {
       "strict": true,
       "rootDir": "src",
-      "outDir": "bin",
+      "outDir": "dist",
       "types": ["node", "jest"],
       "target": "es6",
       "resolveJsonModule": true,
@@ -20,5 +20,5 @@
     "include": [
       "src",
     ],
-    "exclude": ["rename.ts"]
+    "exclude": ["node_modules"]
   }

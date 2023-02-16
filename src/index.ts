@@ -1,5 +1,5 @@
-import * as dotenv from 'dotenv-safe'
+import * as dotenv from "dotenv-safe";
+import { main } from "./main";
+dotenv.config({ allowEmptyValues: false });
 
-dotenv.config({ allowEmptyValues: false })
-
-console.log(process.env.PORT)
+main();
